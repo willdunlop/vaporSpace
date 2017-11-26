@@ -6,9 +6,9 @@
 * | |  | | (_| | | | | |_\__ \ (__\__ \__ \
 * |_|  |_|\__,_|_|_| |_(_)___/\___|___/___/
 *
+* Central stylesheet where other component styles are imported into
+*
 */
-
-//  Central stylesheet where other component styles are imported into
 
 
 /*  >> RESET AND NORMALIZE -----------------------------------------------------
@@ -40,6 +40,7 @@
 @import "./helpers/media-query";
 
 
+
 /*  >> ELEMENTS ----------------------------------------------------------------
 *   Unclassed HTML elements (type selectors)
 *   Headings, links, lists etc.
@@ -64,7 +65,8 @@
 *
 */
 
-@import "./app.scss";
+@import "./app";
+@import "components/navbar";
 
 
 
