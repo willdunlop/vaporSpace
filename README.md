@@ -1,8 +1,3 @@
-# BaseReduxProject
+# VaporSpace
 
-Clone it and run
-
-```
-	> npm install
-	> npm start
-```
+A place for one to express their artistic predilection and it's philosophy
