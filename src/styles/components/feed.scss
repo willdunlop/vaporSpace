@@ -1,0 +1,34 @@
+.feed {
+  width: 100%;
+  min-height: 60em;
+  background: rgba($cod-grey, 0.75);
+  border: solid thin;
+
+}
+
+.feed__title {
+  padding: .5em 1em;
+  background-color: $bright-turquoise;
+  color: $cod-grey;
+}
+
+.feed__content {
+  padding: .5em 1em;
+}
+
+.feed__content-post {
+  margin-bottom: 1.5em;
+}
+
+.feed__content-post-banner {
+  display: flex;
+  margin-bottom: .5em
+}
+
+.feed__content-post-name {
+  font-weight: bold;
+}
+
+.feed__content-post-time {
+  margin-left: auto;
+}

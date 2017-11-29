@@ -2,12 +2,50 @@
 .app {
   width: 100%;
   height: 100%;
+
+}
+
+.app__container {
+  margin-top: 1em;
+  background: rgba($cod-grey, 0.75);
+  border: solid thin;
 }
 
 .app__title {
   text-align: center;
 }
 
+.app__logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+
+  img {
+    width: 30em;
+  }
+}
+
+hr {
+  color: $bright-turquoise;
+  width: 95%;
+}
+
 .app__text {
+  padding: 1em 0;
   text-align: center;
+}
+
+.app__components-wrapper {
+  margin-top: 1em;
+  display: flex;
+}
+
+.app_components-left {
+  width: 33.333%;
+  padding-right: .5em;
+}
+
+.app_components-right {
+  width: 66.666%;
+  padding-left: .5em;
 }

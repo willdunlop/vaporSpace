@@ -1,0 +1,17 @@
+.music-player {
+  width: 100%;
+  min-height: 15em;
+  background: rgba($cod-grey, 0.75);
+  border: solid thin;
+
+}
+
+.music-player__wrapper {
+  // padding: 1em 1.5em;
+}
+
+.music-player__title {
+  padding: .5em 1em;
+  background-color: $bright-turquoise;
+  color: $cod-grey;
+}
