@@ -16,6 +16,7 @@
   display: flex;
   align-items:center;
   padding: 0 .5em;
+  box-sizing : border-box;
 
   span {
     color: $tamarillo;
@@ -24,15 +25,24 @@
 
 .feed__form-input {
   padding: 1em;
-  box-sizing : border-box;
   width: 100%;
   color: $tamarillo;
   // min-height: 3em;
   background-color: $cod-grey;
   border: none;
+}
 
-  &:placeholder {
-    color: $white;
+.feed__form-button {
+  background: darken($tamarillo, 10%);
+  border: solid thin darken($tamarillo, 10%);
+  color: $black;
+  border: none;
+  padding: 1em .75em;
+  margin-left: auto;
+
+  &:hover {
+    color: darken($tamarillo, 10%);
+    background: $black;
   }
 }
 

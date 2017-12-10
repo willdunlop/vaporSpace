@@ -1,0 +1,33 @@
+.top-spaces {
+  width: 100%;
+  min-height: 15em;
+  background: rgba($cod-grey, 0.75);
+  border: solid thick $tundora;
+  margin-top: 1em;
+}
+
+.top-spaces__title {
+  padding: .5em 1em;
+  font-size: 3em;
+  color: $white;
+  text-align: center;
+}
+
+.top-spaces__top {
+  padding: 0 5em;
+  color: $tundora;
+}
+
+.top-spaces__top-title {
+  text-align: center;
+}
+
+.top-spaces__top-content {
+  column-count: 2;
+  list-style-type: decimal;
+  text-align: center;
+  line-height: 2.5em;
+  li {
+
+  }
+}

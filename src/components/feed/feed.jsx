@@ -26,19 +26,20 @@ export default class Feed extends Component {
     return (
       <div className="feed">
         <div className="feed__title">
-          FEED
+          F E E D
         </div>
         <form
           className="feed__form"
           // onSubmit={e => this.onSubmit(e)}
           >
-            <span>>></span>
+            <span>&gt;&gt;</span>
           <input
             className="feed__form-input"
             placeholder="Post"
             onChange={e => this.onChange(e.target.value)}
             value={this.state.postMessage}
           />
+          <button className="feed__form-button">Post</button>
         </form>
         <div className="feed__content">
           <div className="feed__content-post">

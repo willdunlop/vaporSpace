@@ -1,31 +1,24 @@
 import React from 'react';
 
-const logo = require('../../assets/icons/logo.svg');
-
 const Navbar = () => (
   <div className="nav">
     <div className="container">
       <ul className="nav__links-wrapper">
-        <li className="nav__vs-item">
-          <a className="nav__home" href="#">
-            <img src="src/assets/images/vs-logo.png" />
-            {/* {logo} */}
-          </a>
+        <li className="nav__icon nav__icon--home">
+          <img src="src/assets/images/vs-logo.png" />
         </li>
-        <li className="nav__profile-icon">
-          <a className="nav__space" href="#">
-
-          </a>
+        <li className="nav__icon">
+          <img src="src/assets/icons/space.png" />
         </li>
-        <li className="nav__wave-icon">
-          W
+        <li className="nav__icon">
+          <img src="src/assets/icons/inbox.png" />
         </li>
-        <li className="nav__search-icon">
-          S
+        <li className="nav__icon">
+          <img src="src/assets/icons/search.png" />
         </li>
 
-        <li className="nav__user-icon">
-          U
+        <li className="nav__icon nav__icon--account">
+          <img src="src/assets/icons/account.png" />
         </li>
       </ul>
     </div>

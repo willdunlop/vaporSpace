@@ -37,7 +37,7 @@ export default class MusicPlayer extends Component {
       <div className="music-player">
         <div className="music-player__wrapper">
           <div className="music-player__title">
-            Music Player
+            M u s i c&nbsp;&nbsp;P l a y e r
           </div>
         </div>
         <form onSubmit={e => this.onSubmit(e)}>
