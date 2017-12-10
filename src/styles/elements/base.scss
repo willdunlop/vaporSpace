@@ -5,23 +5,9 @@ html {
 body {
   padding-top: 4em;
   // height: 100%;
-  font-family: 'Inconsolata', monospace;
-  background: $cod-grey ;
-  background-image: url('assets/images/vhs.gif');
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: $bright-turquoise;
-  // min-height: 100%;
-  overflow-y: scroll;
-  // animation: bgScroll 10s linear
-}
-
-@keyframes bgScroll {
-   from {
-     transform: translateY(0);
-   }
-   to {
-     transform: translateY(-100%);
-   }
+  // font-family: 'Inconsolata', monospace;
+  font-family: 'Trajan';
+  background: $mine-shaft;
+  color: $white;
+  min-height: 100%;
 }

@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 15em;
   background: rgba($cod-grey, 0.75);
-  border: solid thin;
+  border: solid thick $tundora;
 
 }
 
@@ -12,6 +12,6 @@
 
 .music-player__title {
   padding: .5em 1em;
-  background-color: $bright-turquoise;
-  color: $cod-grey;
+  background-color: $tundora;
+  color: $white;
 }

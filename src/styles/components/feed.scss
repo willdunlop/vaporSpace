@@ -2,17 +2,42 @@
   width: 100%;
   min-height: 60em;
   background: rgba($cod-grey, 0.75);
-  border: solid thin;
-
+  border: solid thick $tundora;
 }
 
 .feed__title {
   padding: .5em 1em;
-  background-color: $bright-turquoise;
-  color: $cod-grey;
+  background-color: $tundora;
+  color: $white;
+}
+
+.feed__form {
+  width: 100%;
+  display: flex;
+  align-items:center;
+  padding: 0 .5em;
+
+  span {
+    color: $tamarillo;
+  }
+}
+
+.feed__form-input {
+  padding: 1em;
+  box-sizing : border-box;
+  width: 100%;
+  color: $tamarillo;
+  // min-height: 3em;
+  background-color: $cod-grey;
+  border: none;
+
+  &:placeholder {
+    color: $white;
+  }
 }
 
 .feed__content {
+  font-family: 'Inconsolata', monotype;
   padding: .5em 1em;
 }
 

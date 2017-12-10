@@ -20,7 +20,7 @@ module.exports = {
     //   options: {
     //     limit: 8192
     }, {
-      test: /\.(png|svg|jpg|gif)$/,
+      test: /\.(png|svg|jpg|gif|ttf)$/,
       loaders: ["file-loader"],
 
     }]

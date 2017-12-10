@@ -2,13 +2,12 @@
 .app {
   width: 100%;
   height: 100%;
-
 }
 
 .app__container {
-  margin-top: 1em;
-  background: rgba($cod-grey, 0.75);
-  border: solid thin;
+  // margin-top: 1em;
+  // background: rgba($cod-grey, 0.75);
+  // border: solid thin;
 }
 
 .app__title {
@@ -21,12 +20,13 @@
   padding-top: 1em;
 
   img {
-    width: 30em;
+    width: 60em;
   }
 }
 
 hr {
-  color: $bright-turquoise;
+  // color: $bright-turquoise;
+  margin-top: 2em;
   width: 95%;
 }
 

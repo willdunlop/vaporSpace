@@ -1,8 +1,8 @@
 
 .nav {
   width: 100%;
-  background-color: $bright-turquoise;
-  color: $cod-grey;
+  background-color: $black;
+  color: $white;
   position: fixed;
   top: 0;
   z-index: 10;
@@ -10,7 +10,7 @@
 
 .nav__links-wrapper {
   display: flex;
-  padding: .5em 0;
+  // padding: .5em 0;
 }
 
 .nav__vs-item {
@@ -21,12 +21,17 @@
   display: inline-block;
   padding: .25em;
   border: solid 2px #000;
-  background-color: $bright-turquoise;
-  transition: 1s background-color ease;
-  
+  background-color: $black;
+  transition: 1s filter ease;
+
+  img {
+    width: 4.5em;
+    // height: 2.5em;
+  }
   outline: 0;
   &:hover {
-    background-color: $cod-grey;
+    // background-color: $white;
+    filter: invert(100%);
       #icon-logo {
         path {
           fill: $bright-turquoise;
