@@ -5,6 +5,7 @@ html {
 body {
   padding-top: 5em;
   font-family: 'Trajan';
-  background: $mine-shaft;
+  background-image: url("/src/assets/images/marble_bg.jpg");
+  background-color: $mine-shaft;
   color: $white;
 }

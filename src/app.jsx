@@ -1,45 +1,26 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Navbar from './components/navbar/navbar';
-import Pillars from './components/pillars';
-import Feed from './components/feed/feed';
-import MusicPlayer from './components/music-player';
-import TopSpaces from './components/top-spaces';
+// import Pillars from './components/pillars';
+import Home from './components/home';
 
+const NotFound = () => <div>404 Big Boss</div>;
 
 import './main.scss';
 
 
 const App = () => (
-  <div className="app">
-    <Navbar />
-
-    <div className="app__container">
-      <Pillars side="left" />
-      <div className="container">
-        {/* <h1 className="app__title">VaporSpace</h1> */}
-        <div className="app__logo-container">
-          <img alt="Home" src="src/assets/images/vs-title.png" />
-        </div>
-        <hr />
-        <p className="app__text">
-          A place for one to express their artistic predilection and its philosophy
-        </p>
-
-        <div className="app__components-wrapper">
-          <div className="app_components-left">
-            <Feed />
-          </div>
-          <div className="app_components-right">
-            <MusicPlayer />
-            <TopSpaces />
-          </div>
-        </div>
-        <hr />
-      </div>
-      <Pillars side="right" />
+  <Router>
+    <div className="app">
+      <Navbar />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route component={NotFound} />
+      </Switch>
+      <hr />
     </div>
-  </div>
+  </Router>
 );
 
 export default App;

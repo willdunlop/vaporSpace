@@ -1,7 +1,7 @@
 .feed {
   width: 100%;
   min-height: 60em;
-  background: rgba($cod-grey, 0.75);
+  background: rgba($cod-grey, .75);
   border: solid thick $tundora;
 }
 
@@ -30,6 +30,10 @@
   // min-height: 3em;
   background-color: $cod-grey;
   border: none;
+
+  &::placeholder {
+    color: $tamarillo;
+  }
 }
 
 .feed__form-button {

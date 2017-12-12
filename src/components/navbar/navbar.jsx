@@ -1,11 +1,14 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
   <div className="nav">
     <div className="container">
       <ul className="nav__links-wrapper">
         <li className="nav__icon nav__icon--home">
-          <img src="src/assets/images/vs-logo.png" />
+          <NavLink to="/">
+            <img src="src/assets/images/vs-logo.png" />
+          </NavLink>
         </li>
         <li className="nav__icon">
           <img src="src/assets/icons/space.png" />
