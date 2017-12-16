@@ -32,7 +32,6 @@ export default class Feed extends Component {
           className="feed__form"
           // onSubmit={e => this.onSubmit(e)}
           >
-            <span>&gt;&gt;</span>
           <input
             className="feed__form-input"
             placeholder="Post"

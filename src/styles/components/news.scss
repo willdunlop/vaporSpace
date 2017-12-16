@@ -1,0 +1,12 @@
+.news {
+  width: 100%;
+  min-height: 60em;
+  background: rgba($cod-grey, .75);
+  border: solid thick $tundora;
+}
+
+.news__title {
+  padding: .5em 1em;
+  background-color: $tundora;
+  color: $white;
+}

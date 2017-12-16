@@ -21,13 +21,47 @@
 
 .ranked-spaces__sub-title {
   text-align: center;
+  font-size: 1.75em
 }
 
 .ranked-spaces__top {
+  display: flex;
+  max-height: 45em;
+}
+
+.ranked-spaces__pillars {
+  width: 27.5%;
+  display: flex;
+  justify-content: flex-start;
+  opacity: .25;
+
+  img {
+    height: 20em;
+  }
+
+  &--right {
+    justify-content: flex-end;
+  }
+}
+
+.ranked-spaces__top-list {
+  width: 45%;
   column-count: 2;
   list-style-type: decimal;
   text-align: center;
-  line-height: 2.5em;
+  font-size: 1.5em;
+  line-height: 2.75em;
+
+  li {
+    a {
+      text-decoration: none;
+      color: $tundora;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 
 }
 

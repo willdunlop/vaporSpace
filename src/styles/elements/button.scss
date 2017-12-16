@@ -1,0 +1,20 @@
+.button {
+  background-color: $cod-grey;
+  color: $white;
+  border: none;
+  padding: 1em 2em;
+  font-size: 1.5em;
+  font-family: 'Trajan';
+  margin: 0 auto;
+  margin-bottom: 1em;
+  transition: filter .5s ease;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    filter: invert(100%);
+    transition: filter .5s ease;
+  }
+}

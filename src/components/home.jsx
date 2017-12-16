@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Feed from './feed/feed';
-import MusicPlayer from './music-player';
+import News from './news';
 import TopSpaces from './top-spaces';
 
 
@@ -19,10 +19,10 @@ const Home = () => (
         <Feed />
       </div>
       <div className="app_components-right">
-        <MusicPlayer />
-        <TopSpaces />
+        <News />
       </div>
     </div>
+    <TopSpaces />
   </div>
 );
 

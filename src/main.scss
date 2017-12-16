@@ -49,7 +49,7 @@
 
 @import "styles/elements/base";
 @import "styles/elements/headings";
-
+@import "styles/elements/button";
 
 
 /*  >> OBJECTS -----------------------------------------------------------------
@@ -68,10 +68,11 @@
 
 @import "styles/app";
 @import "styles/components/navbar";
+@import "styles/components/login";
 @import "styles/components/feed";
 @import "styles/components/music-player";
 @import "styles/components/top-spaces";
-
+@import "styles/components/news";
 
 
 /*  >>  UTILS ------------------------------------------------------------------

@@ -15,8 +15,6 @@
   width: 100%;
   display: flex;
   align-items:center;
-  padding: 0 .5em;
-  box-sizing : border-box;
 
   span {
     color: $tamarillo;
@@ -26,27 +24,32 @@
 .feed__form-input {
   padding: 1em;
   width: 100%;
-  color: $tamarillo;
+  color: $white;
   // min-height: 3em;
   background-color: $cod-grey;
   border: none;
 
-  &::placeholder {
-    color: $tamarillo;
+  &:focus {
+    border-bottom: solid thin $tundora;
+    outline: 0;
   }
+  // &::placeholder {
+  //   color: $tamarillo;
+  // }
 }
 
 .feed__form-button {
-  background: darken($tamarillo, 10%);
-  border: solid thin darken($tamarillo, 10%);
-  color: $black;
+  background: $tundora;
+  border: solid thin $tundora;
+  color: $white;
   border: none;
   padding: 1em .75em;
   margin-left: auto;
+  transition: filter .5s ease;
 
   &:hover {
-    color: darken($tamarillo, 10%);
-    background: $black;
+    filter: invert(100%);
+    transition: filter .5s ease;
   }
 }
 

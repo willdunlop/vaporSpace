@@ -1,0 +1,55 @@
+.login__logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+
+  img {
+    margin: 0 auto;
+    width: 60em;
+    height: 5em;
+  }
+}
+
+.login__text {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.login__top {
+  display: flex;
+  max-height: 45em;
+}
+
+.login__pillars {
+  width: 27.5%;
+  display: flex;
+  justify-content: flex-start;
+  opacity: .25;
+
+  img {
+    height: 30em;
+  }
+
+  &--right {
+    display: none;
+
+    @include media(from tablet) {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.login__options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include media(from tablet) {
+    width: 45%;
+  }
+}
+
+.login__button {
+  width: 15em;
+}
